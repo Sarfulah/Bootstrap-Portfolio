@@ -42,7 +42,7 @@ body {
     padding-bottom: 20px;
     font-size: 30px;
     line-height: 49px;
-    border-bottom: 3px solid #dddddd;
+    border-bottom: 3px solid lightgray;
   }
   
   h2,
@@ -87,7 +87,7 @@ body {
     padding-left: 15px;
     margin-left: 15px;
     line-height: 18px;
-    color: #999;
+    color: white;
     text-decoration: none;
     border-left: 1px solid #efefef;
   }
@@ -108,6 +108,7 @@ body {
     background: #666666;
     border-top: 8px solid #4aaaa5;
     height: 50px;
+    margin-top: 320px;
   }
   
   h3, h2 {
@@ -215,4 +216,17 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
-  
+  @media screen and (max-width: 768px) {
+    body {
+      background-color: palegreen;
+    }
+    .wrapper {
+      width: 600px;
+    }
+    @media screen and (max-width: 640px) {
+        body {
+          background-color: blueviolet;
+        }
+        .wrapper {
+          width: 600px;
+        }
