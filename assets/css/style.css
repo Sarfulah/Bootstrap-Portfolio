@@ -42,7 +42,7 @@ body {
     padding-bottom: 20px;
     font-size: 30px;
     line-height: 49px;
-    border-bottom: 3px solid lightgray;
+    border: 0px solid lightgray;
   }
   
   h2,
@@ -216,17 +216,24 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 980px) {
     body {
-      background-color: palegreen;
+      background-color: hotpink;
     }
     .wrapper {
       width: 600px;
     }
-    @media screen and (max-width: 640px) {
+    @media screen and (max-width: 768px) {
         body {
-          background-color: blueviolet;
+          background-color: yellow;
         }
         .wrapper {
           width: 600px;
         }
+        @media screen and (max-width: 640px) {
+          body {
+            background-color: peru;
+          }
+          .wrapper {
+            width: 600px;
+          }
